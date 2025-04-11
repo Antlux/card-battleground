@@ -1,5 +1,5 @@
 @tool
-class_name TextureUnpacker extends Node
+class_name TextureUnpacker extends Resource
 
 @export var texture_pack: Texture2D
 @export var texture_count := Vector2i.ONE
