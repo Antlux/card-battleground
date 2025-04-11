@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TextureUnpacker" load_steps=3 format=3 uid="uid://q5qk3v7v8vp1"]
+
+[ext_resource type="Script" uid="uid://dexy3bcklga5v" path="res://resources/custom/texture_unpacker/texture_unpacker.gd" id="1_vh1hq"]
+[ext_resource type="Texture2D" uid="uid://bm7se0egakj1t" path="res://assets/textures/pixel_cards/cute_cards_pixel_outline.png" id="2_uaf2v"]
+
+[resource]
+script = ExtResource("1_vh1hq")
+texture_pack = ExtResource("2_uaf2v")
+texture_count = Vector2i(15, 4)
+texture_padding = Vector2i(0, 0)
+export_name = "cute_cards_pixel_outline"
+export_path = "res://assets/textures/pixel_cards/unpacked/cute_cards_pixel_outline/"
+metadata/_custom_type_script = "uid://dexy3bcklga5v"
